@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.yesmin.ai.LocalCommandParserTest" tests="18" skipped="0" failures="0" errors="0" timestamp="2026-11-04T03:30:11" hostname="sbx-7d6d8283" time="0.025">
+  <properties/>
+  <testcase name="noShellParser" classname="com.yesmin.ai.LocalCommandParserTest" time="0.002"/>
+  <testcase name="wakeNameLongestMatch" classname="com.yesmin.ai.LocalCommandParserTest" time="0.006"/>
+  <testcase name="hindiAppCommand" classname="com.yesmin.ai.LocalCommandParserTest" time="0.001"/>
+  <testcase name="unsupportedMultiStepFallsBackToGemini" classname="com.yesmin.ai.LocalCommandParserTest" time="0.003"/>
+  <testcase name="youtubeSearch" classname="com.yesmin.ai.LocalCommandParserTest" time="0.0"/>
+  <testcase name="youtubeWebsiteRequest" classname="com.yesmin.ai.LocalCommandParserTest" time="0.001"/>
+  <testcase name="gestureMustBeExact" classname="com.yesmin.ai.LocalCommandParserTest" time="0.0"/>
+  <testcase name="settingsHinglish" classname="com.yesmin.ai.LocalCommandParserTest" time="0.0"/>
+  <testcase name="playOpensSearch" classname="com.yesmin.ai.LocalCommandParserTest" time="0.001"/>
+  <testcase name="youtubeMultiStep" classname="com.yesmin.ai.LocalCommandParserTest" time="0.0"/>
+  <testcase name="banglaAppCommand" classname="com.yesmin.ai.LocalCommandParserTest" time="0.001"/>
+  <testcase name="preciseTap" classname="com.yesmin.ai.LocalCommandParserTest" time="0.001"/>
+  <testcase name="tapRejectsNegative" classname="com.yesmin.ai.LocalCommandParserTest" time="0.0"/>
+  <testcase name="naturalChatFallsBackToGemini" classname="com.yesmin.ai.LocalCommandParserTest" time="0.001"/>
+  <testcase name="chromeWebsiteAlias" classname="com.yesmin.ai.LocalCommandParserTest" time="0.001"/>
+  <testcase name="hinglishApp" classname="com.yesmin.ai.LocalCommandParserTest" time="0.001"/>
+  <testcase name="browserMultiStep" classname="com.yesmin.ai.LocalCommandParserTest" time="0.0"/>
+  <testcase name="urlPathCasePreserved" classname="com.yesmin.ai.LocalCommandParserTest" time="0.004"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

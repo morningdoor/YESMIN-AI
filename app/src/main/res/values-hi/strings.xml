@@ -1,0 +1,23 @@
+<resources>
+ <string name="app_name">YESMIN AI</string>
+ <string name="home">होम</string>
+ <string name="chat">AI चैट</string>
+ <string name="voice">वॉइस असिस्टेंट</string>
+ <string name="apps">ऐप लॉन्चर</string>
+ <string name="coding">कोडिंग असिस्टेंट</string>
+ <string name="history">कमांड इतिहास</string>
+ <string name="settings">सेटिंग्स</string>
+ <string name="privacy">गोपनीयता और अनुमतियाँ</string>
+ <string name="gemini">Gemini कॉन्फ़िगरेशन</string>
+ <string name="tools">नोट्स और टूल्स</string>
+ <string name="send">भेजें</string>
+ <string name="listen">सुनें</string>
+ <string name="stop">रोकें</string>
+ <string name="input">YESMIN को संदेश…</string>
+ <string name="ready">तैयार</string>
+ <string name="processing">सोच रही हूँ</string>
+ <string name="speaking">बोल रही हूँ</string>
+ <string name="listening">सुन रही हूँ</string>
+ <string name="screen_control">YESMIN स्क्रीन कंट्रोल</string>
+ <string name="accessibility_description">केवल आपके अनुरोध पर एक बार जेस्चर। स्क्रीन का टेक्स्ट नहीं पढ़ा जाता। कभी भी सेटिंग्स में बंद करें।</string>
+</resources>

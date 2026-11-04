@@ -1,0 +1,28 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+ <uses-permission android:name="android.permission.INTERNET" />
+ <uses-permission android:name="android.permission.RECORD_AUDIO" />
+ <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+ <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+ <queries>
+  <intent><action android:name="android.intent.action.MAIN"/><category android:name="android.intent.category.LAUNCHER"/></intent>
+  <intent><action android:name="android.intent.action.VIEW"/><data android:scheme="https"/></intent>
+  <intent><action android:name="android.speech.RecognitionService"/></intent>
+  <intent><action android:name="android.intent.action.TTS_SERVICE"/></intent>
+ </queries>
+ <application android:name=".YesminApplication" android:label="@string/app_name"
+  android:icon="@drawable/ic_yesmin" android:allowBackup="false" android:supportsRtl="true"
+  android:usesCleartextTraffic="false" android:theme="@android:style/Theme.Material.NoActionBar">
+  <activity android:name=".MainActivity" android:exported="true" android:windowSoftInputMode="adjustResize">
+   <intent-filter><action android:name="android.intent.action.MAIN"/><category android:name="android.intent.category.LAUNCHER"/></intent-filter>
+  </activity>
+  <service android:name=".accessibility.YesminAccessibilityService" android:exported="true"
+   android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE" android:label="@string/screen_control">
+   <intent-filter><action android:name="android.accessibilityservice.AccessibilityService"/></intent-filter>
+   <meta-data android:name="android.accessibilityservice" android:resource="@xml/accessibility_service"/>
+  </service>
+  <receiver android:name=".reminders.ReminderReceiver" android:exported="false"/>
+  <receiver android:name=".reminders.BootReceiver" android:exported="true">
+   <intent-filter><action android:name="android.intent.action.BOOT_COMPLETED"/></intent-filter>
+  </receiver>
+ </application>
+</manifest>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.yesmin.ai.ActionValidatorTest" tests="16" skipped="0" failures="0" errors="0" timestamp="2026-11-04T03:30:10" hostname="sbx-7d6d8283" time="0.074">
+  <properties/>
+  <testcase name="credentialsRejected" classname="com.yesmin.ai.ActionValidatorTest" time="0.03"/>
+  <testcase name="aiGesturesRejected" classname="com.yesmin.ai.ActionValidatorTest" time="0.009"/>
+  <testcase name="tooManyActionsRejected" classname="com.yesmin.ai.ActionValidatorTest" time="0.0"/>
+  <testcase name="ipv6LocalLiteralRejected" classname="com.yesmin.ai.ActionValidatorTest" time="0.0"/>
+  <testcase name="localTargetsRejected" classname="com.yesmin.ai.ActionValidatorTest" time="0.001"/>
+  <testcase name="extraJsonFieldsRejected" classname="com.yesmin.ai.ActionValidatorTest" time="0.028"/>
+  <testcase name="strictJsonAcceptsCode" classname="com.yesmin.ai.ActionValidatorTest" time="0.001"/>
+  <testcase name="emptyArgumentRejected" classname="com.yesmin.ai.ActionValidatorTest" time="0.0"/>
+  <testcase name="httpRejected" classname="com.yesmin.ai.ActionValidatorTest" time="0.0"/>
+  <testcase name="publicHttpsAllowed" classname="com.yesmin.ai.ActionValidatorTest" time="0.001"/>
+  <testcase name="executableSchemesRejected" classname="com.yesmin.ai.ActionValidatorTest" time="0.0"/>
+  <testcase name="localhostSubdomainRejected" classname="com.yesmin.ai.ActionValidatorTest" time="0.0"/>
+  <testcase name="customPortRejected" classname="com.yesmin.ai.ActionValidatorTest" time="0.0"/>
+  <testcase name="whitespaceRejected" classname="com.yesmin.ai.ActionValidatorTest" time="0.0"/>
+  <testcase name="knownActionsAllowed" classname="com.yesmin.ai.ActionValidatorTest" time="0.0"/>
+  <testcase name="shellRejected" classname="com.yesmin.ai.ActionValidatorTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
